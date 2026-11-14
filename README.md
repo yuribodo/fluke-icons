@@ -13,6 +13,7 @@ Then pick **Fluke Icons** as the icon theme in Orca's settings.
 ## Coverage (v0.1)
 
 - **Languages:** JavaScript, TypeScript, React (`.jsx`/`.tsx`), Go (the gopher), Python, Rust (Ferris)
+- **Data:** JSON (`.json`, `.jsonc`, `.json5`)
 - **Tools:** Vite, Next.js, NestJS (including `*.controller.ts`, `*.service.ts`, `*.module.ts`…), pnpm, Node.js
 - **Folders:** `src`, `test`/`tests`/`__tests__`/`spec`/`e2e`, `docs`, `assets`/`public`/`static`/`images`, `.github`, `node_modules`, `components`, `.next`
 

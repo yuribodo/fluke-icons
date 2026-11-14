@@ -9,6 +9,7 @@ export const icons = [
   { id: 'react', source: 'si:react', color: '#61DAFB', ext: ['jsx', 'tsx'] },
   { id: 'go', source: 'glyph:gopher', ext: ['go'], names: ['go.mod', 'go.sum', 'go.work'] },
   { id: 'python', source: 'python', ext: ['py', 'pyi', 'pyw'], names: ['requirements.txt', 'pyproject.toml', 'Pipfile'] },
+  { id: 'json', source: 'glyph:json', ext: ['json', 'jsonc', 'json5'] },
   // Ferris is about 2:1 wide; this square crop keeps the whole crab without clipping the claws.
   { id: 'rust', source: 'svg:ferris.svg', viewBox: '120 60 960 960', ext: ['rs'], names: ['Cargo.toml', 'Cargo.lock'] },
 

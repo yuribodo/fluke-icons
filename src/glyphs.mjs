@@ -11,6 +11,9 @@ export const glyphs = {
   // Go gopher face, drawn from circles. The gopher was designed by Renée French (CC BY 4.0); this drawing is ours.
   gopher: `<circle cx="3" cy="4" r="1.7" fill="#00ADD8"/><circle cx="13" cy="4" r="1.7" fill="#00ADD8"/><rect x="2" y="2.4" width="12" height="13" rx="5.6" fill="#00ADD8"/><circle cx="5.2" cy="6.6" r="2.4" fill="#fff"/><circle cx="10.8" cy="6.6" r="2.4" fill="#fff"/><circle cx="5.7" cy="6.9" r="1.05" fill="#1c1b22"/><circle cx="11.3" cy="6.9" r="1.05" fill="#1c1b22"/><ellipse cx="8" cy="10.5" rx="2.3" ry="1.6" fill="#F6D2A2"/><ellipse cx="8" cy="9.5" rx="1.1" ry=".75" fill="#1c1b22"/><rect x="7.35" y="11" width="1.3" height="1.5" rx=".3" fill="#fff"/>`,
 
+  // JSON has no brand color: amber curly braces.
+  json: `<path fill="none" stroke="#E0950F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M6 2.5c-1.6 0-2 .8-2 2v1.2c0 .9-.6 1.5-1.5 1.8.9.3 1.5.9 1.5 1.8v1.2c0 1.2.4 2 2 2M10 2.5c1.6 0 2 .8 2 2v1.2c0 .9.6 1.5 1.5 1.8-.9.3-1.5.9-1.5 1.8v1.2c0 1.2-.4 2-2 2"/><circle cx="8" cy="8" r="1.15" fill="#E0950F"/>`,
+
   // Badge glyphs (drawn in {fg}, shown small inside a folder badge).
   code: `<path fill="none" stroke="{fg}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5.5 4 1.5 8l4 4M10.5 4l4 4-4 4"/>`,
   flask: `<path fill="{fg}" stroke="{fg}" stroke-width="1.6" stroke-linejoin="round" d="M5.6 1.5h4.8M6.4 1.5v4.8L2.3 13a1.2 1.2 0 0 0 1 1.8h9.4a1.2 1.2 0 0 0 1-1.8L9.6 6.3V1.5z"/>`,
