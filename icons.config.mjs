@@ -13,6 +13,24 @@ export const icons = [
   // Ferris is about 2:1 wide; this square crop keeps the whole crab without clipping the claws.
   { id: 'rust', source: 'svg:ferris.svg', viewBox: '120 60 960 960', ext: ['rs'], names: ['Cargo.toml', 'Cargo.lock'] },
 
+  // Docs and data
+  { id: 'readme', source: 'glyph:readme', names: ['README', 'README.md', 'README.txt', 'README.rst'] },
+  { id: 'license', source: 'glyph:license', names: ['LICENSE', 'LICENSE.md', 'LICENSE.txt', 'LICENCE', 'LICENCE.md', 'COPYING', 'UNLICENSE'] },
+  { id: 'markdown', source: 'si:markdown', color: 'currentColor', ext: ['md', 'markdown', 'mdx'] },
+  { id: 'text', source: 'glyph:text', ext: ['txt', 'log', 'rst'] },
+  { id: 'pdf', source: 'glyph:pdf', ext: ['pdf'] },
+  { id: 'csv', source: 'glyph:table', ext: ['csv', 'tsv', 'xlsx', 'xls'] },
+  { id: 'image', source: 'glyph:picture', color: '#1fa985', ext: ['png', 'jpg', 'jpeg', 'gif', 'webp', 'avif', 'bmp', 'ico'] },
+  { id: 'svg', source: 'glyph:picture', color: '#E8920C', ext: ['svg'] },
+
+  // Config
+  { id: 'yaml', source: 'si:yaml', color: '#CB171E', ext: ['yml', 'yaml'] },
+  { id: 'toml', source: 'si:toml', color: '#9C4121', ext: ['toml'] },
+  { id: 'env', source: 'glyph:key', ext: ['env'], names: ['.env', '.env.local', '.env.example', '.env.development', '.env.production', '.env.test'] },
+  { id: 'git', source: 'si:git', color: '#F03C2E', names: ['.gitignore', '.gitattributes', '.gitmodules', '.gitkeep', '.mailmap', '.git-blame-ignore-revs'] },
+  { id: 'docker', source: 'si:docker', color: '#2496ED', ext: ['dockerfile'], names: ['Dockerfile', '.dockerignore', 'docker-compose.yml', 'docker-compose.yaml', 'compose.yml', 'compose.yaml'] },
+  { id: 'shell', source: 'si:gnubash', color: '#4EAA25', ext: ['sh', 'bash', 'zsh', 'fish'], names: ['.bashrc', '.zshrc', '.profile', '.bash_profile'] },
+
   // Tools. Black official logos use currentColor: Orca paints them in the row's text color, so they work on light and dark themes.
   { id: 'vite', source: 'si:vite', color: '#9135FF', names: ['vite.config.ts', 'vite.config.js', 'vite.config.mts', 'vite.config.mjs', 'vite.config.cts', 'vite.config.cjs'] },
   { id: 'nextjs', source: 'si:nextdotjs', color: 'currentColor', names: ['next.config.js', 'next.config.mjs', 'next.config.ts'] },
@@ -32,6 +50,7 @@ export const folders = [
   { id: 'test', badge: '#7cb342', glyph: 'glyph:flask', names: ['test', 'tests', '__tests__', 'spec', 'e2e'] },
   { id: 'docs', badge: '#4f8fd6', glyph: 'glyph:lines', names: ['docs', 'doc'] },
   { id: 'assets', badge: '#1fa985', glyph: 'glyph:image', names: ['assets', 'public', 'static', 'images', 'img'] },
+  { id: 'git', badge: '#F03C2E', glyph: 'si:git', names: ['.git'] },
   { id: 'github', badge: '#3b434c', glyph: 'si:github', names: ['.github'] },
   { id: 'node', badge: '#5FA04E', glyph: 'si:nodedotjs', names: ['node_modules'] },
   { id: 'components', badge: '#1b8fb3', glyph: 'si:react', names: ['components'] },

@@ -14,6 +14,15 @@ export const glyphs = {
   // JSON has no brand color: amber curly braces.
   json: `<path fill="none" stroke="#E0950F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M6 2.5c-1.6 0-2 .8-2 2v1.2c0 .9-.6 1.5-1.5 1.8.9.3 1.5.9 1.5 1.8v1.2c0 1.2.4 2 2 2M10 2.5c1.6 0 2 .8 2 2v1.2c0 .9.6 1.5 1.5 1.8-.9.3-1.5.9-1.5 1.8v1.2c0 1.2-.4 2-2 2"/><circle cx="8" cy="8" r="1.15" fill="#E0950F"/>`,
 
+  // Own drawings for files that have no brand. Page shape matches `file`.
+  text: `<path fill="none" stroke="#8E9AAF" stroke-width="1.8" stroke-linecap="round" d="M2.5 3.5h11M2.5 6.5h11M2.5 9.5h11M2.5 12.5h7"/>`,
+  pdf: `<path fill="#E5252A" d="M3.5 1.5h5.6l3.4 3.4v8.6a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V2.5a1 1 0 0 1 1-1z"/><path fill="#A81A1E" d="M9.1 1.5v2.6a.8.8 0 0 0 .8.8h2.6z"/><path fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" d="M4.8 8h6.4M4.8 10.3h6.4M4.8 12.6h3.6"/>`,
+  license: `<path fill="#B0861A" d="M5 9.4 3.8 14.6l2-1 1.2 1.4.9-4.4zM11 9.4l1.2 5.2-2-1-1.2 1.4-.9-4.4z"/><circle cx="8" cy="6.6" r="4.9" fill="#D4A72C"/><circle cx="8" cy="6.6" r="2.4" fill="none" stroke="#fff" stroke-width="1.2"/>`,
+  readme: `<circle cx="8" cy="8" r="6.8" fill="#2F81F7"/><circle cx="8" cy="4.8" r="1.15" fill="#fff"/><rect x="7" y="6.8" width="2" height="5.4" rx="1" fill="#fff"/>`,
+  picture: `<rect x="2" y="3" width="12" height="10" rx="1.6" fill="none" stroke="{fg}" stroke-width="1.5"/><path fill="{fg}" d="M3.4 11.8 6.6 7.6l2.4 2.8 1.7-1.9 2 3.3z"/><circle cx="10.9" cy="6.1" r="1.25" fill="{fg}"/>`,
+  table: `<rect x="1.5" y="2.5" width="13" height="11" rx="1.5" fill="#2E9E5B"/><path fill="none" stroke="#fff" stroke-width="1.1" d="M1.5 6.3h13M1.5 9.9h13M6.3 6.3v7.2"/>`,
+  key: `<g fill="none" stroke="#D9B826" stroke-width="2" stroke-linecap="round"><circle cx="5" cy="10.8" r="3"/><path d="M7.2 8.6 13.6 2.2M11.4 4.4l1.9 1.9M9.5 6.3l1.4 1.4"/></g>`,
+
   // Badge glyphs (drawn in {fg}, shown small inside a folder badge).
   code: `<path fill="none" stroke="{fg}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5.5 4 1.5 8l4 4M10.5 4l4 4-4 4"/>`,
   flask: `<path fill="{fg}" stroke="{fg}" stroke-width="1.6" stroke-linejoin="round" d="M5.6 1.5h4.8M6.4 1.5v4.8L2.3 13a1.2 1.2 0 0 0 1 1.8h9.4a1.2 1.2 0 0 0 1-1.8L9.6 6.3V1.5z"/>`,

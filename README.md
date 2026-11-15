@@ -1,6 +1,6 @@
 # Fluke Icons
 
-Flat file and folder icons for [Orca](https://github.com/stablyai/orca). Each technology gets its official brand color, and folders stay a quiet gray, with a small colored badge on the common ones (`src`, `test`, `docs`, `.github`, `node_modules`…).
+Flat file and folder icons for [Orca](https://github.com/stablyai/orca). Each technology gets its official brand color, and folders stay a quiet gray, with a small colored badge on the common ones (`src`, `test`, `docs`, `.git`, `.github`, `node_modules`…).
 
 ## Install
 
@@ -13,11 +13,13 @@ Then pick **Fluke Icons** as the icon theme in Orca's settings.
 ## Coverage (v0.1)
 
 - **Languages:** JavaScript, TypeScript, React (`.jsx`/`.tsx`), Go (the gopher), Python, Rust (Ferris)
-- **Data:** JSON (`.json`, `.jsonc`, `.json5`)
+- **Docs:** README, LICENSE/COPYING, Markdown, text and logs, PDF
+- **Data:** JSON, YAML, TOML, CSV/spreadsheets, images, SVG
+- **Config:** `.env` files, Git (`.gitignore`, `.gitattributes`…), Docker (Dockerfile, compose), shell scripts and rc files
 - **Tools:** Vite, Next.js, NestJS (including `*.controller.ts`, `*.service.ts`, `*.module.ts`…), pnpm, Node.js
-- **Folders:** `src`, `test`/`tests`/`__tests__`/`spec`/`e2e`, `docs`, `assets`/`public`/`static`/`images`, `.github`, `node_modules`, `components`, `.next`
+- **Folders:** `src`, `test`/`tests`/`__tests__`/`spec`/`e2e`, `docs`, `assets`/`public`/`static`/`images`, `.git`, `.github`, `node_modules`, `components`, `.next`
 
-Next.js and Fastify are drawn in `currentColor`, so they follow the row's text color on light and dark themes.
+Next.js, Fastify and Markdown are drawn in `currentColor`, so they follow the row's text color on light and dark themes.
 
 ## Develop
 
