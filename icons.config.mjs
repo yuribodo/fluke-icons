@@ -40,6 +40,8 @@ export const icons = [
   },
   { id: 'pnpm', source: 'si:pnpm', color: '#F69220', names: ['pnpm-lock.yaml', 'pnpm-workspace.yaml', '.pnpmfile.cjs'] },
   { id: 'nodejs', source: 'si:nodedotjs', color: '#5FA04E', names: ['package.json', '.nvmrc', '.node-version'] },
+  { id: 'prettier', source: 'si:prettier', color: '#F7B93E', names: ['.prettierrc', '.prettierrc.json', '.prettierrc.json5', '.prettierrc.yml', '.prettierrc.yaml', '.prettierrc.toml', '.prettierrc.js', '.prettierrc.cjs', '.prettierrc.mjs', '.prettierrc.ts', 'prettier.config.js', 'prettier.config.cjs', 'prettier.config.mjs', 'prettier.config.ts', '.prettierignore'] },
+  { id: 'biome', source: 'si:biome', color: '#60A5FA', names: ['biome.json', 'biome.jsonc'] },
   // shortcut: Fastify has no file of its own, so it ships no mappings yet; add folder or file names when a convention appears.
   { id: 'fastify', source: 'si:fastify', color: 'currentColor' },
 ]

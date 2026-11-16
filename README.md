@@ -16,7 +16,7 @@ Then pick **Fluke Icons** as the icon theme in Orca's settings.
 - **Docs:** README, LICENSE/COPYING, Markdown, text and logs, PDF
 - **Data:** JSON, YAML, TOML, CSV/spreadsheets, images, SVG
 - **Config:** `.env` files, Git (`.gitignore`, `.gitattributes`…), Docker (Dockerfile, compose), shell scripts and rc files
-- **Tools:** Vite, Next.js, NestJS (including `*.controller.ts`, `*.service.ts`, `*.module.ts`…), pnpm, Node.js
+- **Tools:** Vite, Next.js, NestJS (including `*.controller.ts`, `*.service.ts`, `*.module.ts`…), pnpm, Node.js, Prettier, Biome
 - **Folders:** `src`, `test`/`tests`/`__tests__`/`spec`/`e2e`, `docs`, `assets`/`public`/`static`/`images`, `.git`, `.github`, `node_modules`, `components`, `.next`
 
 Next.js, Fastify and Markdown are drawn in `currentColor`, so they follow the row's text color on light and dark themes.
